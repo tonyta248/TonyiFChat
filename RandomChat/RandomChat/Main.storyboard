@@ -331,6 +331,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Create room"/>
                                 <connections>
+                                    <action selector="createRoom:" destination="ldr-bi-ZRE" eventType="touchUpInside" id="8zd-3p-WF2"/>
                                     <segue destination="ObC-Zh-HTZ" kind="show" id="yod-s5-uzc"/>
                                 </connections>
                             </button>
@@ -347,6 +348,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="1gF-UG-vV7"/>
                     </view>
+                    <connections>
+                        <outlet property="createRoomBtn" destination="En6-IM-51l" id="S2N-Kl-dWK"/>
+                        <outlet property="roomNameTxt" destination="xGB-v6-pd2" id="EGV-Cc-7i3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Km-H0-HOz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
