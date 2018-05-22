@@ -12,6 +12,12 @@ import Firebase
 import FirebaseDatabase
 import FirebaseAuth
 
+struct Room {
+    let name: String
+    let users: [String]
+    let num: String
+}
+
 class CreateRoomViewController: UIViewController {
     
     @IBOutlet weak var createRoomBtn: UIButton!
